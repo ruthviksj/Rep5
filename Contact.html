@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Issue 03 · Correspondence · Ruthvik S.J.</title>
+<meta name="description" content="Correspondence — channels, compose, subscriptions. Issue 03.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital,wght@0,400;1,400&family=Newsreader:ital,wght@0,400;0,500;1,400;1,500&family=JetBrains+Mono:wght@400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead__left">Issue&nbsp;03 <span class="div">/</span> Vol.&nbsp;26 <span class="div">/</span> The Field&nbsp;Manual</div>
+  <div class="masthead__center"><b>Ruthvik S.J.</b> <span class="div">·</span> Product Manager</div>
+  <div class="masthead__right">Bengaluru <span class="div">→</span> Worldwide</div>
+</header>
+
+<nav class="navbar">
+  <button class="navbar__burger" aria-label="Menu">Menu</button>
+  <div class="navbar__list">
+    <a href="index.html">Cover</a>
+    <a href="about.html">Long read</a>
+    <a href="portfolio.html">Index of works</a>
+    <a href="contact.html" class="active">Correspondence</a>
+  </div>
+  <span class="navbar__meta">Reply window <b>~24h</b></span>
+</nav>
+
+<div class="page">
+
+  <aside class="toc">
+    <div class="toc__label">In this section</div>
+    <ol>
+      <li><a href="#channels" class="active">Channels</a></li>
+      <li><a href="#letters">Letters to the desk</a></li>
+      <li><a href="#subs">Subscriptions</a></li>
+    </ol>
+    <div class="toc__bottom">
+      <div class="row"><span>First reply</span><b>~24h</b></div>
+      <div class="row"><span>Calls</span><b>same-week</b></div>
+      <div class="row"><span>Status</span><b style="color:var(--coral)">● open</b></div>
+    </div>
+  </aside>
+
+  <main class="col">
+
+    <!-- 01 · CHANNELS -->
+    <section class="section" id="channels">
+      <div class="sec-head">
+        <div class="sec-no">01</div>
+        <div class="sec-meta">
+          <div class="sec-meta__label">Channels <span style="margin-left:auto; color:var(--dim)">p. 1</span></div>
+          <h2 data-reveal>Say <em>hi.</em></h2>
+        </div>
+      </div>
+
+      <p class="lede" data-reveal data-delay="1">A few ways to reach me, in roughly the order I'll see them. Pick whichever feels least like work.</p>
+
+      <div class="chans" data-reveal data-delay="2">
+        <div class="chan">
+          <div class="chan__lbl">A. Book a slot</div>
+          <div class="chan__v"><a href="https://calendar.app.google/qNr8E9riKFn4P3YB9" target="_blank" rel="noopener">calendar.app.google/qNr8E9riKFn4P3YB9</a></div>
+          <div class="chan__tag">Fastest</div>
+        </div>
+        <div class="chan">
+          <div class="chan__lbl">B. Email</div>
+          <div class="chan__v"><a href="mailto:sjruthvik99@gmail.com">sjruthvik99@gmail.com</a></div>
+          <div class="chan__tag">Direct</div>
+        </div>
+        <div class="chan">
+          <div class="chan__lbl">C. LinkedIn</div>
+          <div class="chan__v"><a href="https://www.linkedin.com/in/sjruthvik/" target="_blank" rel="noopener">in/sjruthvik</a></div>
+          <div class="chan__tag">DMs open</div>
+        </div>
+        <div class="chan">
+          <div class="chan__lbl">D. Twitter / X</div>
+          <div class="chan__v"><a href="https://twitter.com/sjruthvik" target="_blank" rel="noopener">@sjruthvik</a></div>
+          <div class="chan__tag">DMs open</div>
+        </div>
+        <div class="chan">
+          <div class="chan__lbl">E. Résumé.pdf</div>
+          <div class="chan__v"><a href="https://www.sjruthvik.in/wp-content/uploads/2025/11/SJ-RUTHVIK-RESUME.pdf" target="_blank" rel="noopener">↓ SJ-RUTHVIK-RESUME.pdf</a></div>
+          <div class="chan__tag">Download</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02 · LETTERS -->
+    <section class="section" id="letters">
+      <div class="sec-head">
+        <div class="sec-no">02</div>
+        <div class="sec-meta">
+          <div class="sec-meta__label">Letters to the desk <span style="margin-left:auto; color:var(--dim)">p. 2</span></div>
+          <h2 data-reveal>Or write <em>something here.</em></h2>
+        </div>
+      </div>
+
+      <p class="lede" data-reveal data-delay="1">A short form. Submits straight to my inbox. I reply within a day or two.</p>
+
+      <form class="compose" id="compose-form" data-reveal data-delay="2">
+        <div class="compose__head">To: <b>Editorial desk</b> · <b>sjruthvik99@gmail.com</b></div>
+        <div class="compose__row"><label for="name">From</label><input type="text" id="name" name="name" placeholder="your name" required></div>
+        <div class="compose__row"><label for="email">Email</label><input type="email" id="email" name="email" placeholder="you@somewhere.com" required></div>
+        <div class="compose__row"><label for="subject">Subject</label><input type="text" id="subject" name="subject" placeholder="what's this about?"></div>
+        <div class="compose__row" style="align-items:start;"><label for="message" style="padding-top:8px;">Message</label><textarea id="message" name="message" placeholder="role, problem, hi…" required></textarea></div>
+        <div class="compose__actions">
+          <span class="compose__hint">Opens your mail client.</span>
+          <button class="btn btn--coral" type="submit">Send ↗</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- 03 · SUBSCRIPTIONS / LOOKING FOR -->
+    <section class="section" id="subs">
+      <div class="sec-head">
+        <div class="sec-no">03</div>
+        <div class="sec-meta">
+          <div class="sec-meta__label">Subscriptions <span style="margin-left:auto; color:var(--dim)">p. 3</span></div>
+          <h2 data-reveal>What I'm <em>looking for.</em></h2>
+        </div>
+      </div>
+
+      <p class="lede" data-reveal data-delay="1">In case it narrows things down.</p>
+
+      <div class="chans" data-reveal data-delay="2">
+        <div class="chan">
+          <div class="chan__lbl">Roles</div>
+          <div class="chan__v">Product Manager, Senior PM, Technical PM.</div>
+          <div class="chan__tag">Open</div>
+        </div>
+        <div class="chan">
+          <div class="chan__lbl">Location</div>
+          <div class="chan__v">Bengaluru · Remote · Hybrid — all fine.</div>
+          <div class="chan__tag">Flexible</div>
+        </div>
+        <div class="chan">
+          <div class="chan__lbl">Domains</div>
+          <div class="chan__v">Fintech · deep-tech · IoT &amp; embedded · enterprise infra.</div>
+          <div class="chan__tag">+ new</div>
+        </div>
+        <div class="chan">
+          <div class="chan__lbl">Want</div>
+          <div class="chan__v">Places where the metric actually moves — and that are okay being held to it.</div>
+          <div class="chan__tag">↑</div>
+        </div>
+        <div class="chan">
+          <div class="chan__lbl">Not for</div>
+          <div class="chan__v">Pure feature-factory roles without a "why" attached.</div>
+          <div class="chan__tag">↓</div>
+        </div>
+      </div>
+
+      <div class="footnotes" data-reveal data-delay="3">
+        <ol>
+          <li>If you've got a problem you're poking at — even if you're not actively hiring — feel free to drop a note. Worst case, you've made a new contact.</li>
+        </ol>
+      </div>
+
+      <div class="btn-row" data-reveal data-delay="3" style="margin-top:24px;">
+        <a class="btn" href="index.html">← back to cover</a>
+        <a class="btn btn--ghost" href="about.html">Or the long read</a>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<footer class="colophon">
+  <span><b>Issue&nbsp;03</b> · 2026 · <b>Ruthvik S.J.</b></span>
+  <span>Correspondence</span>
+  <span>Replies usually within ~24h.</span>
+  <span>© <span data-year>2026</span></span>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
